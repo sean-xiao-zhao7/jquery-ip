@@ -1,16 +1,5 @@
-let vehicle = {
-    wheels: "4",
-    fuelType: "Gasoline",
-    color: "Green",
-};
-let carProps = {
-    type: {
-        value: "Volkswagen",
-    },
-    model: {
-        value: "Golf",
-    },
-};
+const orgObject = { company: "Kotoyo Corp." };
+const carObject = { name: "Toyota" };
+const staff = Object.assign({}, orgObject);
 
-var car = Object.create(vehicle, carProps);
-console.log(car);
+console.log(staff);
