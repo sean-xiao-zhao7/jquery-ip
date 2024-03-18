@@ -1,1 +1,2 @@
-$("div").html("Next Step...");
+var person = name => first + ' ' + last;
+new person ('jane','smith');
